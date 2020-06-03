@@ -14,9 +14,7 @@ class AppProjects extends Component {
 	render(){
 		return (
 			<div className="appprojects">
-				<Segment>
-					<h1>This is the AppProjects component</h1>
-				</Segment>
+				<h2>This is the AppProjects component</h2>
 			</div>
 		)
 	}

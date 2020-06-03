@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Segment } from 'semantic-ui-react';
 import '../App.css';
 
-class Outdoors extends Component {
+class Athletics extends Component {
 	constructor(props){
 		super(props);
 
@@ -13,13 +13,13 @@ class Outdoors extends Component {
 
 	render(){
 		return (
-			<div className="outdoors">
+			<div className="athletics">
 				<Segment>
-					<h1>Outdoors</h1>
+					<h1>Athletics</h1>
 				</Segment>
 			</div>
 		)
 	}
 }
 
-export default Outdoors;
+export default Athletics;
