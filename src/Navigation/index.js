@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
 import '../App.css';
 
-export default class Navigation extends Component {
+class Navigation extends Component {
   state ={ activeItem: 'home' }
 
 
@@ -18,12 +18,21 @@ export default class Navigation extends Component {
     <div className='navgation'>
       <div className='social-nav'>
         <ul className='social-ul'>
-          <li className='social-item'>
-          <a href="https://github.com/SusedCee" target="_blank" className='media-link'>
-          <img className='media-image' src='linkedin.svg' alt='LinkedIn Link' /></a></li>
-          <li className='social-item'> </li>
-          <li className='social-item'> </li>
-          <li className='social-item'> </li>
+          <li className='social-li'>
+            <a href="https://github.com/SusedCee" target="_blank" className='media-link'>
+              <img className='media-image' src='linkedin.svg' alt='LinkedIn Link' />
+            </a>
+          </li>
+          <li className='social-li'> 
+            <a href="https://www.linkedin.com/in/sused-cabrera/" target="_blank" className='media-link'>
+              <img className='media-image' src='github.svg' alt='GitHub Link' />
+            </a>
+          </li>
+          <li className='social-li'> 
+            <a href="https://www.codewars.com/users/Sused" target="_blank" className='media-link'>
+              <img className='media-image' src='codewars.svg' alt='Code Wars Link' />
+            </a>
+          </li>
         </ul>
       </div>
       <div className='menu-nav'>
@@ -42,3 +51,5 @@ export default class Navigation extends Component {
   	);
   }
 }
+
+export default Navigation;

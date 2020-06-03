@@ -3,20 +3,37 @@
   
 }
 
+.social-nav {
+  width: 100vw;
+  height: 25px;
+}
+
 .social-ul {
-  display: block;
+  display: flex;
+  flex-direction: row !important;
+  padding: 5px 10px 5px 0;
+  margin: 0px;
   list-style-type: none;
+  overflow: hidden;
+  float: right;
 } 
 
-.social-item {
-  display: block;
+.social-li {
+float: block;
+width: 15px;
+padding: 0 15px 0 15px;
 }
 
 .media-image {
   display: block;
-  margin: 0 auto;
+  width: 15px !important;
+}
+
+.media-image {
+  display: block;
   height: 15px;
-  width: auto;
+  width: 15px;
+  border: 0px !important;
 }
 
 .menu {
