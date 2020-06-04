@@ -14,9 +14,7 @@ class Projects extends Component {
 	render(){
 		return (
 			<div className="projects">
-				<Segment>
-					<h1>Projects</h1>
-				</Segment>
+				<h1>Projects</h1>
 			</div>
 		)
 	}

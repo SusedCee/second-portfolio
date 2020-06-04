@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { Segment } from 'semantic-ui-react';
+import { Segment } from 'semantic-ui-react';
 import '../App.css';
 
 class About extends Component {
@@ -14,9 +14,7 @@ class About extends Component {
 	render(){
 		return (
 			<div className="about">
-				
-			<h2>This is the ABOUT component</h2>
-				
+				<h1>About</h1>
 			</div>
 		)
 	}

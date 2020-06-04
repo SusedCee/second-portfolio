@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Segment } from 'semantic-ui-react';
+import { } from 'semantic-ui-react';
 import '../App.css';
 
 class AppProjects extends Component {
@@ -14,7 +14,7 @@ class AppProjects extends Component {
 	render(){
 		return (
 			<div className="appprojects">
-				<h2>This is the AppProjects component</h2>
+				<h1>App Projects</h1>
 			</div>
 		)
 	}

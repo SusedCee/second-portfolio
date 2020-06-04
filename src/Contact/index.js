@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Segment } from 'semantic-ui-react';
+import { } from 'semantic-ui-react';
 import '../App.css';
 
 class Contact extends Component {
@@ -14,9 +14,7 @@ class Contact extends Component {
 	render(){
 		return (
 			<div className="contact">
-				<Segment>
-					<h1>Contact</h1>
-				</Segment>
+				<h1>Contact</h1>
 			</div>
 		)
 	}

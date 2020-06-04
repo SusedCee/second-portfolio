@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Segment } from 'semantic-ui-react';
+import { } from 'semantic-ui-react';
 import '../App.css';
 
 class Recipes extends Component {
@@ -14,9 +14,7 @@ class Recipes extends Component {
 	render(){
 		return (
 			<div className="recipes">
-				<Segment>
-					<h1>Recipes</h1>
-				</Segment>
+				<h1>Recipes</h1>
 			</div>
 		)
 	}

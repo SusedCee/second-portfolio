@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { } from 'semantic-ui-react';
 import '../App.css';
 
-class Literature extends Component {
+class Footer extends Component {
 	constructor(props){
 		super(props);
 
@@ -13,11 +13,11 @@ class Literature extends Component {
 
 	render(){
 		return (
-			<div className="literature">
-				<h1>Literature</h1>
+			<div className="footer">
+				<h1>Footer</h1>
 			</div>
 		)
 	}
 }
 
-export default Literature;
+export default Footer;
