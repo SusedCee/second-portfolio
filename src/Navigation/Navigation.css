@@ -1,9 +1,9 @@
 .navigation {
-  height: 100vh;
+  height: 337px;
 }
 
 h1 {
-  font-family: 'Homemade Apple', cursive;
+  
 }
 
 .social-nav {
@@ -59,8 +59,12 @@ margin: 0 10px 0 10px;
 
 .header-name {
   width: 90%;
-  
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.name {
+  font-size: 45px;
+  font-family: 'Homemade Apple', cursive;
 }

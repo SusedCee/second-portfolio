@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import { } from 'semantic-ui-react';
 import '../App.css';
+import LiteratureList from './LiteratureList';
 
 class Literature extends Component {
-	constructor(props){
-		super(props);
-
-		this.state = {
-			//nothing here yet
-		}
-	}
 
 	render(){
 		return (
 			<div className="literature">
-				<h1>Literature</h1>
+				<h1 className="page-title">LITERATURE</h1>
+				<LiteratureList />
 			</div>
 		)
 	}

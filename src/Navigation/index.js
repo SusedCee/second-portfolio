@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
-import Home from '../Home/index.js';
-import About from '../About/index.js'
-import AppProjects from '../AppProjects/index.js';
-import Recipes from '../Recipes/index.js';
-import Projects from '../Projects/index.js';
-import Literature from '../Literature/index.js';
-import Athletics from '../Athletics/index.js';
-import Contact from '../Contact/index.js';
 
 class Navigation extends Component {
   state={ activeItem: 'home' }
@@ -16,35 +9,8 @@ class Navigation extends Component {
   handleItemClick = (e, { name }) => this.setState({activeItem: name})
 
   render() {
-    
+
     const { activeItem } = this.state
-   
-    const Page = () => {
-      if(this.state.activeItem === 'home') {
-        return <Home />
-      }
-      else if(this.state.activeItem === 'about') {
-        return <About />
-      }
-      else if(this.state.activeItem === 'app projects') {
-        return <AppProjects />
-      }
-      else if(this.state.activeItem === 'recipes') {
-        return <Recipes />
-      }
-      else if(this.state.activeItem === 'projects') {
-        return <Projects />
-      }
-      else if(this.state.activeItem === 'literature') {
-        return <Literature />
-      }
-      else if(this.state.activeItem === 'athletics') {
-        return <Athletics />
-      }
-      else if(this.state.activeItem === 'contact') {
-        return <Contact />
-      }
-    }
 
   	return (
       <div className='navigation'>
@@ -65,25 +31,29 @@ class Navigation extends Component {
                 <img className='media-image' src='codewars.svg' alt='Code Wars Link' />
               </a>
             </li>
+            <li className='social-li'> 
+              <a href="https://twitter.com/SusedC" target="_blank"  rel="noopener noreferrer" className='media-link'>
+                <img className='media-image' src='twitter.svg' alt='Code Wars Link' />
+              </a>
+            </li>
           </ul>
         </div>
         <div className='menu-nav'>
         	<Menu className='menu' text vertical>
-          		<Menu.Item className='menu-item' name='home' active={activeItem === 'home'} onClick={this.handleItemClick} />
-          		<Menu.Item className='menu-item' name='about' active={activeItem === 'about'} onClick={this.handleItemClick} />
-          		<Menu.Item className='menu-item' name='app projects' active={activeItem === 'app projects'} onClick={this.handleItemClick} />
-          		<Menu.Item className='menu-item' name='recipes' active={activeItem === 'recipes'} onClick={this.handleItemClick} />
-          		<Menu.Item className='menu-item' name='projects' active={activeItem === 'projects'} onClick={this.handleItemClick} />
-          		<Menu.Item className='menu-item' name='literature' active={activeItem === 'literature'} onClick={this.handleItemClick} />
-          		<Menu.Item className='menu-item' name='athletics' active={activeItem === 'athletics'} onClick={this.handleItemClick} />
-          		<Menu.Item className='menu-item' name='contact' active={activeItem === 'contact'} onClick={this.handleItemClick} />
+        		<Menu.Item className='menu-item' name='home' active={activeItem === 'home'} onClick={this.handleItemClick} as={Link} to='/'/>
+        		<Menu.Item className='menu-item' name='about' active={activeItem === 'about'} onClick={this.handleItemClick} as={Link} to='/about'/>
+            <Menu.Item className='menu-item' name='app projects' active={activeItem === 'app projects'} onClick={this.handleItemClick} as={Link} to='/appprojects'/>
+        		<Menu.Item className='menu-item' name='technology' active={activeItem === 'technology'} onClick={this.handleItemClick} as={Link} to='/technology'/>
+        		<Menu.Item className='menu-item' name='garden' active={activeItem === 'garden'} onClick={this.handleItemClick} as={Link} to='/garden'/>
+            <Menu.Item className='menu-item' name='food' active={activeItem === 'food'} onClick={this.handleItemClick} as={Link} to='/food'/>
+        		<Menu.Item className='menu-item' name='crafts' active={activeItem === 'crafts'} onClick={this.handleItemClick} as={Link} to='/crafts'/>
+            <Menu.Item className='menu-item' name='health' active={activeItem === 'health'} onClick={this.handleItemClick} as={Link} to='/health'/>
+        		<Menu.Item className='menu-item' name='literature' active={activeItem === 'literature'} onClick={this.handleItemClick} as={Link} to='/literature'/>
+        		<Menu.Item className='menu-item' name='contact' active={activeItem === 'contact'} onClick={this.handleItemClick} as={Link} to='/contact'/>
           </Menu>
           <div className='header-name'>
-            <h1> Sused Cabrera </h1>
+            <h1 className='name'> Sused Cabrera </h1>
           </div>
-        </div>
-        <div className='page'>
-          {Page()}
         </div>
       </div>
   	);

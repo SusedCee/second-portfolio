@@ -1,3 +1,85 @@
 .App {
   height: 100vh;
 }
+
+/*lists*/
+
+.ui.centered.cards {
+    margin: 2em;
+}
+
+.page-title {
+	padding: 20px 80px;
+	text-align: right;
+}
+
+.ui.card, .ui.cards>.card {
+    border-radius: 0rem;
+    box-shadow: none;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+    display: block;
+    width: auto;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+ 	border-radius: 0 0 0 0!important;
+ 	opacity: 0.95;
+	height: 290px !important;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.ui.card>.image, .ui.cards>.card>.image:hover {
+ 	opacity: 0.8;
+}
+
+.ui.card>:last-child, .ui.cards>.card>:last-child {
+    border-radius: 0 0 0 0rem!important;
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+	background-color: #decfc8 !important;
+	border-radius: 0px 0px 0px 0px !important;
+	height: 45px!important;
+}
+
+/*form*/
+
+.ui.form {
+    max-width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 25px 0;
+}
+
+@media only screen and (min-width: 1700px) {
+	.ui.form {
+	    max-width: 40%;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    margin: 25px 0;
+	}
+}
+
+/*contact form*/
+
+input#form-input-name {
+	border-radius: 0px 0px 0px 0px !important;    
+}
+
+input#form-input-email {
+	border-radius: 0px 0px 0px 0px !important;
+}
+
+.ui.form textarea {
+	border-radius: 0px 0px 0px 0px !important;
+}
+
+.ui.button {
+	border-radius: 0px 0px 0px 0px !important;
+}

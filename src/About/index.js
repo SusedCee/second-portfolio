@@ -1,20 +1,13 @@
 import React, { Component } from 'react';
-import { Segment } from 'semantic-ui-react';
+import { } from 'semantic-ui-react';
 import '../App.css';
 
 class About extends Component {
-	constructor(){
-		super();
-
-		this.state = {
-			//nothing here yet
-		}
-	}
 
 	render(){
 		return (
 			<div className="about">
-				<h1>About</h1>
+				<h1 className="page-title">ABOUT</h1>
 			</div>
 		)
 	}

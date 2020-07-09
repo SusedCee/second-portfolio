@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import { } from 'semantic-ui-react';
 import '../App.css';
+import AppProjectsList from './AppProjectsList';
 
 class AppProjects extends Component {
-	constructor(props){
-		super(props);
-
-		this.state = {
-			//nothing here yet
-		}
-	}
 
 	render(){
 		return (
-			<div className="appprojects">
-				<h1>App Projects</h1>
+			<div className="app-projects">
+				<h1 className='page-title'>APP PROJECTS</h1>
+				<AppProjectsList />
 			</div>
 		)
 	}
