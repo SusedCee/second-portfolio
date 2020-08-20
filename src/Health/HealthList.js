@@ -10,7 +10,7 @@ class Health extends Component {
 		<Card.Group centered>
 		{HealthData.map((healthDetail, index) => {
 			return (
-			    <Card >
+			    <Card key={ healthDetail.id } >
 			      <Image src={healthDetail.image} wrapped ui={false}  />
 			      <Card.Content>
 			        <Card.Header content={healthDetail.title} />

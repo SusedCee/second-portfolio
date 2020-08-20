@@ -10,7 +10,7 @@ class GardenList extends Component {
 			<Card.Group centered>
 			{GardenData.map((gardenDetail, index) => {
 				return (
-				    <Card >
+				    <Card key={ gardenDetail.id } >
 				      <Image src={gardenDetail.image} wrapped ui={false}  />
 				      <Card.Content>
 				        <Card.Header content={gardenDetail.title} />

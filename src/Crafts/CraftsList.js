@@ -11,7 +11,7 @@ class CraftsList extends Component {
 				<Card.Group centered>
 				{CraftsData.map(( craftsDetail, index) => {
 					return (
-					    <Card   >
+					    <Card  key={ craftsDetail.id } >
 					      <Image src={craftsDetail.image} wrapped ui={false}  />
 					      <Card.Content>
 					        <Card.Header content={craftsDetail.title} />

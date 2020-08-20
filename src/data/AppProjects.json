@@ -2,39 +2,45 @@
 	{	
 		"id": 1,
 		"title": "Tamagotchi",
-		"date": "06-01-2019",
+		"date": "June 1, 2019",
 		"image": "/img/appProjects/tamagotchi.png",
 		"technology": "JavaScript",
 		"link": "https://susedcee.github.io/Tamagotchi-Game/",
-		"description": "Tamagotchi was a popular game in the 90's. The application lets you name your pet, feed it, give it some rest and play with it. Be careful to not feed it too much or not enough or you will kill your pet. If you take good care of the pet it will live a long happy life!"
+		"description": ["Tamagotchi was a popular game in the 90's. The application lets you name your pet, feed it, give it some rest and play with it.", 
+			" Be careful to not feed it too much or not enough or you will kill your pet. If you take good care of the pet it will live a long happy life!"
+		]
 	},
 	{	
 		"id": 2,
 		"title": "The Red Carpet",
-		"date": "09-01-2019",
+		"date": "September 1, 2019",
 		"image": "img/appProjects/the-red-carpet.png",
 		"technology": "JavaScript, Express",
 		"link": "http://theredcarpet.herokuapp.com/",
-		"description": "This project was a group collaboration between Sandra Abernathy, Michael Li and me. The concept is an application where anyone can browse celebrity outfits. In able to upload, vote, comment and delete uploads, a person needs to be a member and register. The main home page features the most liked and least liked outfits."
-			
-		
+		"description": ["This project was a group collaboration between Sandra Abernathy, Michael Li and me. The concept is an application where anyone can browse celebrity outfits.", 
+		"In able to upload, vote, comment and delete uploads, a person needs to be a member and register. The main home page features the most liked and least liked outfits."
+		]
 	},
 	{	
 		"id": 3,
 		"title": "GYST",
-		"date": "09-01-2019",
+		"date": "September 1, 2019",
 		"image": "/img/appProjects/gyst.png",
 		"technology": "JavaScript, Express",
 		"link": "http://gyst-task-react.herokuapp.com/",
-		"description": "Get Your Sh*t Together, is based on the Pomodoro Technique of time management to get things done. The app lets a user make a list things they need to do and you get to choose when to start the clock to cycle through your tasks. Collaborated with Joshua Smith and Derek Hutson."
+		"description": ["Get Your Sh*t Together, is based on the Pomodoro Technique of time management to get things done. The app lets a user make a list things they need to do and you get to choose when to start the clock to cycle through your tasks.", 
+		"Collaborated with Joshua Smith and Derek Hutson."
+		]
 	},
 	{	
 		"id": 4,
 		"title": "NPS Search",
-		"date": "09-01-2019",
+		"date": "September 1, 2019",
 		"image": "/img/appProjects/nps-search.png",
 		"technology": "JavaScript, React, Express, Third Party API",
 		"link": "https://npsearch.herokuapp.com/",
-		"description": "National Parks are a very popular place to visit and this application serves as an avenue to search for national parks based on keywords. Once the user finds a park they are interested in they can click on it and go to the official NPS park site that was chosen."
+		"description": ["National Parks are a very popular place to visit and this application serves as an avenue to search for national parks based on keywords.", 
+		"Once the user finds a park they are interested in they can click on it and go to the official NPS park site that was chosen."
+		]
 	}
 ]

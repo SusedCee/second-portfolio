@@ -11,6 +11,10 @@
 .page-title {
 	padding: 20px 80px;
 	text-align: right;
+	font-family: 'Libre Barcode 39 Extended Text', cursive;
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #bea193;
 }
 
 .ui.card, .ui.cards>.card {
@@ -46,6 +50,55 @@
 	background-color: #decfc8 !important;
 	border-radius: 0px 0px 0px 0px !important;
 	height: 45px!important;
+	text-transform: uppercase;
+	font-family: 'Overpass Mono', monospace !important;
+}
+
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+	font-family: 'Overpass Mono', monospace !important;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+	font-size: 100%;
+}
+
+/*one post*/
+.go-back-text {
+	display: inline-block;
+	margin: 20px 0 20px 10px;
+	font-size: 17px;
+	color: #606060;
+	cursor: pointer;
+}
+
+.go-back-image {
+	width: 15px;
+}
+
+h5.ui.header {
+    color: #bea193;
+    font-family: 'Overpass Mono', monospace !important;
+	text-transform: uppercase;
+	margin-bottom: 0px !important;
+}
+
+h2.ui.header {
+    color: #bea193;
+    font-family: 'Overpass Mono', monospace !important;
+    text-transform: uppercase;
+	margin-top: 0px !important;
+}
+
+.ui.text.container {
+    font-family: 'Overpass Mono', monospace !important;
+}
+
+.post-div {
+	font-family: 'Overpass Mono', monospace;
+}
+
+a.ui.button {
+	font-family: 'Overpass Mono', monospace !important;
 }
 
 /*form*/

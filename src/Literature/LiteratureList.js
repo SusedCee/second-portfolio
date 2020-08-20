@@ -10,7 +10,7 @@ class LiteratureList extends Component {
 			<Card.Group centered>
 			{LitData.map((litDetail, index) => {
 				return (
-				    <Card >
+				    <Card key={ litDetail.id } >
 				      <Image src={litDetail.image} wrapped ui={false}  />
 				      <Card.Content>
 				        <Card.Header content={litDetail.title} />

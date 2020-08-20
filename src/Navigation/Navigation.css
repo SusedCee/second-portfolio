@@ -1,9 +1,5 @@
 .navigation {
-  height: 337px;
-}
-
-h1 {
-  
+  height: 399px;
 }
 
 .social-nav {
@@ -55,16 +51,29 @@ margin: 0 10px 0 10px;
 
 .menu-item {
   text-transform: uppercase !important;
+  font-family: 'Overpass Mono', monospace !important;
+  margin-right: 5px !important;
+  text-align: right;
+}
+
+.header-image-block {
+  height: 372.15px;
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  height: 372.17px;
 }
 
 .header-name {
-  width: 90%;
-  display: flex;
+  margin-top: -280px;
+  margin-left: 40%;
+  display: block;
   align-items: center;
   justify-content: center;
 }
 
 .name {
-  font-size: 45px;
-  font-family: 'Homemade Apple', cursive;
+  width: 50%;
 }

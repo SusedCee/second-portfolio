@@ -11,7 +11,7 @@ class RecipesList extends Component {
 				<Card.Group centered>
 				{RecipeData.map((recipeDetail, index) => {
 					return (
-					    <Card >
+					    <Card key={ recipeDetail.id } >
 					      <Image src={recipeDetail.image} wrapped ui={false}  />
 					      <Card.Content>
 					        <Card.Header content={recipeDetail.title} />

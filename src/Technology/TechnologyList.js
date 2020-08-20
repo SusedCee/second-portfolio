@@ -10,7 +10,7 @@ class TechnologyList extends Component {
 			<Card.Group centered>
 			{TechnologyData.map((technologyDetail, index) => {
 				return (
-				    <Card >
+				    <Card key={ technologyDetail.id } >
 				      <Image src={technologyDetail.image} wrapped ui={false}  />
 				      <Card.Content>
 				        <Card.Header content={technologyDetail.title} />
