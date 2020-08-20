@@ -22,7 +22,6 @@ class TechnologyList extends Component {
 		this.setState({showList: true})
 	}
 
-
 	render(){
 		return (
 		this.state.showList ?
