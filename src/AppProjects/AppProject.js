@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Image, Header, Button } from 'semantic-ui-react';
+import { Container, Image, Header, Button, Divider } from 'semantic-ui-react';
 import '../App.css';
 
 class AppProject extends Component {
@@ -14,6 +14,8 @@ class AppProject extends Component {
 			    	return <p paragraph={paragraph} key={index}>{paragraph}</p>
 			    	})
 				}
+				<Divider />
+				<p>Technology used: {this.props.value.technology}</p>
 			    <Button as='a' target="_blank" href={this.props.value.link}>
 				Go to the Application
 				</Button>

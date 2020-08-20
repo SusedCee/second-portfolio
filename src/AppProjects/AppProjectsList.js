@@ -40,12 +40,12 @@ class AppProjectsList extends Component {
 			</Card.Group> :
 			<div className='post-div'>
 				<p className='go-back-text' onClick={(e) => this.handleGoBackToList(e.target)}>
-					<img className='go-back-image' src='left-chevron.svg' alt='Code Wars Link'/>
+					<img className='go-back-image' src='left-chevron.svg' alt='Left arrow'/>
 				App List
 				</p>
 				<AppProject value={this.state.post} />
 				<p className='go-back-text' onClick={(e) => this.handleGoBackToList(e.target)}>
-					<img className='go-back-image' src='left-chevron.svg' alt='Code Wars Link'/>
+					<img className='go-back-image' src='left-chevron.svg' alt='Left arrow'/>
 				App List
 				</p>
 			</div>
