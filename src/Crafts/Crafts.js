@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Image, Header, Button, Divider } from 'semantic-ui-react';
+import { Container, Image, Header } from 'semantic-ui-react';
 import '../App.css';
 
 class Craft extends Component {

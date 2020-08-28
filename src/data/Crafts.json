@@ -1,40 +1,29 @@
 [
 	{	
 		"id": 1,
-		"date": "June 1, 2019",
+		"date": "January 1, 2019",
 		"title": "First Embroidery Project",
-		"image": "img/crafts/first-embroidery.jpeg",
-		"description": ["Bird and flower embroidery pattern on a white linen fabric"
+		"image": "img/crafts/first-embroidery-project-2020.jpeg",
+		"description": ["What sparked my interest in embroidery was the need of a Mexican style decorative pillow. I have a really nice dark blue sofa that needed some dressing up and I am such a huge fan of colorful Mexican patterns. The problem that I was facing was finding the right pillows that complimented each other. I decided that I was going to learn how to embroider and make exactly what I needed.", 
+			"Before I started my first project, I watched all sorts of videos on YouTube that would give me some ideas and pointers. After some research, I went to Michaels and bought plastic emboidery rings and an assortment of embroidery floss. As for the fabric, I went to Joann's and bought half a yard of a white linen.",
+			"My plan was to just practice different embroidery techniques, but I ended up just going through and finishing an idea in my head. In the end I did not practice many techniques, but I completed the project.",
+			"One thing I learned was that I should have bought more colors and in bulk. By the end, I was almost runnig out of green floss and was running low in my next project. I also was not too happy with the fabric I used because it was too thin and it rippled a lot, so I had to keep readjusting very often.",
+			"When I finished my project, I decided to frame it, so I bought a wooden embroidery loop. In the end, I was a lot more comftorable with using a needle and enjoying the process.",
+			"In the past, I had tried other creative hobbies like knitting and crocheting, and I am already a very patient person, but finishing those projects took way too long. I enjoyed embroidery the most because it helped me express my creativity more with colors and finishing a project went by very fast.",
+			"If you are thinking on learning how to embroider, I highly encourage you to try it out. I don't consider myself to be very creative when it comes to artsy stuff, but just google embroidery ideas online, you'll see the endless possibilities and it will get you excited to start."
 		]
 	},
 	{	
 		"id": 2,
 		"date": "June 1, 2019",
-		"title": "First Embroidery Project",
-		"image": "img/crafts/first-embroidery.jpeg",
+		"title": "Second Embroidery Project",
+		"image": "img/crafts/second-embroidery-project-2020.jpeg",
 		"description": [
-			"Bird and flower embroidery pattern on a white linen fabric",
-			"I started by buying a Michaels kit"
-		]
-	},
-	{	
-		"id": 3,
-		"date": "June 1, 2019",
-		"title": "First Embroidery Project",
-		"image": "img/crafts/first-embroidery.jpeg",
-		"description": [
-			"Bird and flower embroidery pattern on a white linen fabric",
-			"I started by buying a Michaels kit"
-		]
-	},
-	{	
-		"id": 4,
-		"date": "June 1, 2019",
-		"title": "First Embroidery Project",
-		"image": "img/crafts/first-embroidery.jpeg",
-		"description": [
-			"Bird and flower embroidery pattern on a white linen fabric",
-			"I started by buying a Michaels kit"
+			"For my second embroidery project, I really needed an outlet while job searching, so I decided to go for it and make a Virgen of Guadalupe.",
+			"I have always been such a fan of any Virgen de Guadalupe art, so I was very excited about this one. While planning, I looked at a lot of inspiration online and thought of how it would work out when embroidering.",
+			"This time around I used unbleached muslin fabric, which worked much better than the light linen! Before starting, I drew the pattern on the fabric and just followed the lines.",
+			"The new pattern I was able to use was the floral pattern, which were supposed to be small red roses (the flower of which the Virgen of Guadalupe is known for).",
+			"As for the final product, I was super happy with the pattern and how fast the project was completed. One thing that once again I should have done, was bought more floss colors, because I wasn't too happy with my color shade options. Overall the colors weren't too bad, but I might re-do this project with a better color selection."
 		]
 	}
 ]

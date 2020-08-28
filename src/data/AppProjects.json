@@ -4,43 +4,57 @@
 		"title": "Tamagotchi",
 		"date": "June 1, 2019",
 		"image": "/img/appProjects/tamagotchi.png",
-		"technology": "JavaScript",
+		"technology": "HTML, CSS, JavaScript",
 		"link": "https://susedcee.github.io/Tamagotchi-Game/",
-		"description": ["Tamagotchi was a popular game in the 90's. The application lets you name your pet, feed it, give it some rest and play with it.", 
-			" Be careful to not feed it too much or not enough or you will kill your pet. If you take good care of the pet it will live a long happy life!"
+		"description": ["Let me introduce you to the famous first project I made during my software engineering program. Tamagotchi was a popular game in the 90's. Back in the day they were a small egg shaped device that came with a clip to attach to a bag, backpack or even belt loops on pants. I don't think they're very popular now, but it sure brings back some nostalgic memories.", 
+			"The application lets you name your pet, feed it, give it some rest and play with it. Be careful to not feed it too much or not enough or you will kill your pet. If you take good care of the pet it will live a long happy life!", 
+			"I chose a Lilo & Stitch theme for the app, because I thought it would be a cute up to date character.",
+			"Some things that I learned from this project was how to work with some basic CSS rules, JavaScript timers, moving divs across a screen, keeping track of scores and applying transitions when completing levels. The things that took me the longest to figure out was moving divs in the behavior I wanted and having responsive score bars when clicking the Feed, Sleeping and Play buttons.", 
+			"When I think of the final product, I realize it's not a perfect app, but it was at the moment a big learning experience in such a short amount of time. I don't want to change or update it, because it reminds me of the things I was able to create at the beginning of my journey and compare it to what I could do now as a product of going through that process.",
+			"Growing is all about the process, improving at every step and not considering your first attempts a failure or not good enough because after all, you know more today than you did yesterday."
 		]
 	},
 	{	
 		"id": 2,
 		"title": "The Red Carpet",
-		"date": "September 1, 2019",
+		"date": "July 17, 2019",
 		"image": "img/appProjects/the-red-carpet.png",
-		"technology": "JavaScript, Express",
+		"technology": "HTML, CSS, JavaScript, Express",
 		"link": "http://theredcarpet.herokuapp.com/",
-		"description": ["This project was a group collaboration between Sandra Abernathy, Michael Li and me. The concept is an application where anyone can browse celebrity outfits.", 
-		"In able to upload, vote, comment and delete uploads, a person needs to be a member and register. The main home page features the most liked and least liked outfits."
+		"description": ["This project was my first group collaboration. My groupmates were Sandra Abernathy and Michael Li.",
+			"The concept is an application where anyone can browse celebrity outfits on the red carpet. In able to upload, vote, comment and delete uploads, a person needs to be a member and register. The main home page features the most liked and least liked outfits.", 
+			"Through this project, I learned how to work with other people by verbally communicating ideas, dividing work for each person and last but not least working with git versions. Before this project, I had no experience pulling requests and reviewing them.",
+			"Now that I am touching a bit on git versions, let me just say that it is one of the most intimidating things to learn, especially when losing code is a possibility. One thing that helped us work and be in sync, was setting up the files together and dividing the work so we weren't overlapping any code.", 
+			"One interesting process, was planning what kind of app we wanted to build. The main requirements for the assignment was to build a full-stack app with auth login and all CRUD (create, read, update and delete) functionalities. With that in mind, at first we wanted to build a Craigslist like app, but we felt it was necessary to build something new. In the end, we went with my partner Sandra's idea of red carpet outfits, which was such an original idea! Thanks Sandra :).",
+			"After we knew what we wanted to create, we worked together to build a very thorough wireframe and assigned what each person would build. I learned so much and one new skill I got to improve was my CSS skills. In general, it was an overall CSS growing experience, but I'd say my biggest CSS accomplishment was building a responsive burger menu."
 		]
 	},
 	{	
 		"id": 3,
 		"title": "GYST",
-		"date": "September 1, 2019",
+		"date": "August 30, 2019",
 		"image": "/img/appProjects/gyst.png",
-		"technology": "JavaScript, Express",
+		"technology": "HTML, CSS, Semantic UI React, JavaScript, React, Flask, Python",
 		"link": "http://gyst-task-react.herokuapp.com/",
-		"description": ["Get Your Sh*t Together, is based on the Pomodoro Technique of time management to get things done. The app lets a user make a list things they need to do and you get to choose when to start the clock to cycle through your tasks.", 
-		"Collaborated with Joshua Smith and Derek Hutson."
+		"description": ["This was my second big group project and I got to collaborate with Joshua Smith and Derek Hudson.",
+			"Get Your Sh*t Together, is based on the Pomodoro Technique of time management to get things done. The app lets a user make a list of things they need to do and you get to choose when to start the clock to cycle through your tasks.", 
+			"By this point, I had already had other small projects and improved my git skills. That in itself was very helpful and made the process go very smoothly. The requirements were similar to the last big project, which was to build a full-stack app with auth login and all CRUD (create, read, update and delete) functionalities.",
+			"This time around deciding what we wanted to build was a lot faster and we were going off past projects and building on that knowledge. The new technology we were working with was Flask, Python and React",
+			"The things I really enjoyed this time around was learning how to work with React, setting up the API functionalities and working with the Semantic UI React framework, which saved me lots of time!"
 		]
 	},
 	{	
 		"id": 4,
 		"title": "NPS Search",
-		"date": "September 1, 2019",
+		"date": "September 12, 2019",
 		"image": "/img/appProjects/nps-search.png",
-		"technology": "JavaScript, React, Express, Third Party API",
+		"technology": "JavaScript, React, Semantic UI React, Express, Mongoose, Third Party API",
 		"link": "https://npsearch.herokuapp.com/",
-		"description": ["National Parks are a very popular place to visit and this application serves as an avenue to search for national parks based on keywords.", 
-		"Once the user finds a park they are interested in they can click on it and go to the official NPS park site that was chosen."
+		"description": ["This project is the first major full-stack app I've built all on my own. I decided that I wanted it to be a passion project and that I wanted to learn how to use a third party API. It took me a while to find an API that fit both my criteria, but I ended up finding a third party API from the National Park Service. People that know me, know that I love the outdoors and encourage other people to enjoy it as well, so I knew I would have a great time building the app.",
+			"I built to the app using React and Express, because I wanted to feel more comftorable with those technologies. In past projects I got to practice with React and Express, but I wanted to build and experience the whole building process on my own.",
+			"National Parks are a very popular place to visit and this application serves as an avenue to search for national parks based on keywords. Once the user finds a park they are interested in they can click on it and go to the official NPS park site that was chosen.",
+			"Through building a full-stack application on my own, there were lots of things I learned. One was making sure I did not forget any specifics when planning and making the wireframes for my project. When there are more people involved, ideas become more concrete and it is less likely to forget about small details.", 
+			"Another challenge was learning how to use a third-party API. That, I think was my biggest challenge because from the start I had a hard time finding a free API that would work for me. When it came to consuming data and showcasing it, I had to learn a whole new skillset on my own. In the end I figured it out and was very happy with my search bar that used keywords to showcase parks in a nice list of cards."
 		]
 	}
 ]

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Image, Header, Button, Divider, List } from 'semantic-ui-react';
+import { Container, Image, Header, Divider, List } from 'semantic-ui-react';
 import '../App.css';
 
 class Food extends Component {
@@ -35,7 +35,7 @@ class Food extends Component {
 				<Divider />
 				<p>
 				Recipe Inspiration:
-					<a target="_blank" href={this.props.value.recipeInspiration}>
+					<a target="_blank" rel="noopener noreferrer" href={this.props.value.recipeInspiration}>
 					{this.props.value.recipeInspiration}
 					</a>
 				</p>
@@ -45,16 +45,3 @@ class Food extends Component {
 }
 
 export default Food;
-
-			 //    {this.props.value.ingredients.map((ingredient, index) => {
-			 //    	return 
-			 //    		<p ingredient={ingredient} key={index}>{ingredient}</p>
-			 //    	})
-				// }
-
-				
-				// {this.props.value.directions.map((directions, index) => {
-			 //    	return 
-			 //    		<p directions={directions} key={index}>{directions}</p>
-			 //    	})
-				// }

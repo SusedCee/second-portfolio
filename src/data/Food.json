@@ -29,10 +29,10 @@
 		"recipeInspiration": "https://www.readyseteat.com/recipes-Vegetarian-Enchiladas-7719"
 	},	
 	{	
-		"id": 1,
+		"id": 2,
 		"date": "June 1, 2020",
-		"title": "Vegetarian Bean Enchiladas",
-		"image": "img/food/veggie-enchiladas.jpg",
+		"title": "Paella de Tierra",
+		"image": "img/food/paella-2020.jpg",
 		"description": ["Veggie heavy enchiladas with plenty of cheese to go around.",
 			"This is not a vegan recipe, but it can be altered to fit your needs.",
 			"I am not vegan or vegetarian, but that does not mean that I can't enjoy meatless meals every now and then. This is one of my favorite non meat dishes.",
@@ -58,10 +58,10 @@
 		"recipeInspiration": "https://www.readyseteat.com/recipes-Vegetarian-Enchiladas-7719"
 	},
 	{	
-		"id": 1,
+		"id": 3,
 		"date": "June 1, 2020",
-		"title": "Vegetarian Bean Enchiladas",
-		"image": "img/food/veggie-enchiladas.jpg",
+		"title": "Stuffed Bell Peppers",
+		"image": "img/food/stuffed-bell-peppers-2020.jpg",
 		"description": ["Veggie heavy enchiladas with plenty of cheese to go around.",
 			"This is not a vegan recipe, but it can be altered to fit your needs.",
 			"I am not vegan or vegetarian, but that does not mean that I can't enjoy meatless meals every now and then. This is one of my favorite non meat dishes.",

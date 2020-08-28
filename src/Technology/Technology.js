@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Image, Header, Button, Divider } from 'semantic-ui-react';
+import { Container, Image, Header, Divider } from 'semantic-ui-react';
 import '../App.css';
 
 class Technology extends Component {
@@ -16,7 +16,7 @@ class Technology extends Component {
 				}
 				<Divider />
 				<p>Link to resources: 
-					<a target="_blank" href={this.props.value.link} >{this.props.value.link}</a>
+					<a target="_blank" rel="noopener noreferrer" href={this.props.value.link} >{this.props.value.link}</a>
 				</p>
 			</Container>
 		)

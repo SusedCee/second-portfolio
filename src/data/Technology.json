@@ -3,7 +3,7 @@
 		"id": 1,
 		"date": "June 1, 2019",
 		"title": "MAC Computer",
-		"image": "img/health/for-her-anti-chafe.png",
+		"image": "img/technology/macbook-pro-13-inch-touch-bar.jpg",
 		"description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
 			"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		],
@@ -13,7 +13,7 @@
 		"id": 2,
 		"date": "June 1, 2019",
 		"title": "Battery Life Hacks",
-		"image": "img/health/for-her-anti-chafe.png",
+		"image": "img/technology/battery-life.png",
 		"description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
 			"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		],
@@ -23,7 +23,7 @@
 		"id": 3,
 		"date": "June 1, 2019",
 		"title": "Flaticon Website",
-		"image": "img/health/for-her-anti-chafe.png",
+		"image": "img/technology/flaticon.png",
 		"description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
 			"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		],
@@ -32,8 +32,8 @@
 	{	
 		"id": 4,
 		"date": "June 1, 2019",
-		"title": "Flex-box frog game",
-		"image": "img/health/for-her-anti-chafe.png",
+		"title": "Flex-box Frog Game",
+		"image": "img/technology/flex-box-css.png",
 		"description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
 			"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		],
